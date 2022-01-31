@@ -1,0 +1,126 @@
+<mat-card>
+    <form [formGroup]="registerInForm">
+        <div class="title">
+            <h1>REGISTRATION FORM</h1>
+        </div>
+
+        <!----------------1row-------------->
+        <br>
+        <div class="input">
+            <input type="text" class="form-control" placeholder="Enter your Email" name="email" formControlName="email">
+            <span class="error" *ngIf="registerInForm.get('email')?.invalid && submitFlag==true">*Email is
+                mandatory</span>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+
+        <!---------------2row------------ -->
+        <br>
+        <div class="input">
+            <input type="password" class="form-control" placeholder="Enter Password" name="password" formControlName="password">
+            <span class="error" *ngIf="registerInForm.get('password')?.invalid && submitFlag==true">*Password is
+                mandatory</span>
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+        </div>
+
+        <!------------------3row ---------------->
+        <br>
+        <div class="input">
+            <input type="password" class="form-control" placeholder="Re-Type Password" name="retype" formControlName="retype">
+            <span class="error" *ngIf="registerInForm.get('retype')?.invalid && submitFlag==true">*Retype Your Password
+            </span>
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+        </div>
+
+        <!-----------------4row-------------->
+        <br>
+        <div class="input">
+            <div class="firstnameIcon">
+                <input type="text" class="form-control" placeholder="Enter Firstname" name="firstname" formControlName="firstname">
+                <span class="error" *ngIf="registerInForm.get('firstname')?.invalid && submitFlag==true">*Firstname is
+                    mandatory</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>&nbsp;&nbsp;
+            <div class="lastnameIcon">
+                <input type="text" class="form-control" placeholder="Enter Lastname" name="lastname" formControlName="lastname">
+                <span class="error" *ngIf="registerInForm.get('lastname')?.invalid && submitFlag==true">*Lastname is
+                    mandatory</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <!---------------------5row--------------->
+        <br>
+        <div class="input">
+            <input type="number" class="form-control" placeholder="Phone Number" name="phone" formControlName="phone">
+            <span class="error" *ngIf="registerInForm.get('phone')?.invalid && submitFlag==true">*Phone Number is
+                mandatory</span>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+
+        <!-----------------------6row--------------->
+        <br>
+        <div class="row">
+            <label>Date Of Birth </label>
+            <input type="date" class="form-control" name="dob" formControlName="dob">
+            <span class="error" *ngIf="registerInForm.get('dob')?.invalid && submitFlag==true">*Date of Birth is
+                mandatory</span>
+        </div>
+        <br>
+
+        <!------------------------7row----------------->
+        <div class="row">
+            <label>Address </label> &nbsp;&nbsp;
+            <textarea class="form-control" name="address" formControlName="address"></textarea>
+            <span class="error" *ngIf="registerInForm.get('address')?.invalid && submitFlag==true">*Address is
+                mandatory</span>
+        </div>
+        <br>
+
+        <!-------------------------8row------------------>
+        <div class="row">
+            <label>City </label>
+            <select name="Select District" class="form-control" name="city" formControlName="city">
+                <option value="Nagpur">Select City</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Wardha">Wardha</option>
+            </select>
+            <span class="error" *ngIf="registerInForm.get('city')?.invalid && submitFlag==true">*City is
+                mandatory</span>
+        </div>
+        <br>
+
+        <!--------------------------9row------------------------>
+        <div class="row">
+            <label>District </label> &nbsp;&nbsp;
+            <select name="Select District" class="form-control" name="district" formControlName="district">
+                <option value="Nagpur">Select District</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Wardha">Wardha</option>
+            </select>
+            <span class="error" *ngIf="registerInForm.get('district')?.invalid && submitFlag==true">*District is
+                mandatory</span>
+        </div>
+        <br>
+
+        <!------------------------10row------------------------>
+        <div class="gender">
+            <label>Gender </label> &nbsp;&nbsp;
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Female</label>&nbsp;&nbsp;
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Male</label>
+        </div>
+        <br>
+
+        <!------------------------11row------------------------>
+        <div>
+            <button type="clear" class="button">Clear</button>
+            <button type="submit" class="button" (click)="submit()">Register</button>
+        </div>
+        <br>
+
+        <!------------------------12row------------------------>
+        <a class="login" routerLink="/login/loginLink">Back to login</a>
+        <br><br>
+    </form>
+</mat-card>

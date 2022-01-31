@@ -1,0 +1,78 @@
+
+.title{
+    margin-left: 100px;
+    font-family: josephin sans;
+}
+table{
+    width: 510px;
+     border: 1px solid rgb(218, 214, 214);
+      height: 180%; 
+      margin: auto;
+      background-color: rgb(219, 219, 230);
+}
+.row{
+    margin-left: 10px;
+     margin-right: 10px;
+}
+.details{
+    margin-left: 10px;
+     margin-right: 10px;
+     position: relative;
+    width: 96%;
+}
+a{
+    margin-left: 10px;
+    color: black;
+    font-weight: bold; 
+}
+.register{
+    margin-left: 69%;
+    position: relative;
+    top: -25px;
+}
+
+.details input[type=text]{
+    padding-left: 40px;
+}
+
+.details i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.details input[type=text]{
+    padding-left: 40px;
+}
+
+.details i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.details input[type=password]{
+    padding-left: 40px;
+}
+
+
+.details i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.button{
+    margin-left: 10px;
+    width: 96%;
+    height: 30px;
+    background: rgb(154, 154, 228);
+    color: white;
+    border: none;
+}
+.error{
+    color: red;
+}

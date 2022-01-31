@@ -1,0 +1,137 @@
+.mat-card{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(219, 219, 230);
+}
+
+.title{
+    margin-left: 40px;
+    font-family: josephin sans;
+}
+table{
+    width: 540px; 
+    border: 1px solid rgb(213, 213, 231); 
+    height: 180%; 
+    margin: auto;
+    background-color:rgb(219, 219, 230);
+}
+.row{
+    margin-left: 10px; 
+    margin-right: 10px;
+    
+}
+.input{
+    margin-left: 10px; 
+    margin-right: 10px;
+    position: relative;
+    width: 96%;
+}
+
+.input input[type=text]{
+    padding-left: 40px;
+}
+
+.input i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.input input[type=password]{
+    padding-left: 40px;
+}
+
+.input i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.input input[type=password]{
+    padding-left: 40px;
+}
+
+.input i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.firstnameIcon input[type=text]{
+    padding-left: 40px;
+    
+}
+.firstnameIcon{
+    position: relative;
+    
+}
+.firstnameIcon i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.lastnameIcon input[type=text]{
+    padding-left: 40px;
+    
+}
+.lastnameIcon{
+    position: relative;
+  
+}
+.lastnameIcon i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.button{
+    margin-left: 10px;
+    width: 45%;
+    height: 30px;
+    background: #007bff;
+    color: white;
+    border: none;
+}
+.input input[type=number]{
+    padding-left: 40px;
+}
+
+.input i{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    padding: 9px 8px;
+    color: black;
+}
+.gender{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+#html{
+    margin-left: 15px;
+}
+.login{
+    margin-left: 10px; 
+    color: white;
+    padding: 5px 5px;
+    border: 1px solid transparent;
+    background-color:#007bff;
+    text-decoration: none;
+}
+a{
+    font-weight: bold; 
+}
+label{
+    font-weight: bold;
+}
+.error{
+    color: red;
+}
+

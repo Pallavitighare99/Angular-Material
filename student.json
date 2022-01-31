@@ -1,0 +1,75 @@
+[
+    {
+        "id" : 1,
+        "empID": 5201,
+        "name" : "abc",
+        "email" : "abc@gmail.com",
+        "phone" : 123456789,
+        "gender" : "Male"
+
+    },
+    {
+        "id" : 2,
+        "empID": 5202,
+        "name" : "xyz",
+        "email" : "xyz@gmail.com",
+        "phone" : 678896789,
+        "gender" : "Female"
+
+    },
+    {
+        "id" : 3,
+        "empID": 5203,
+        "name" : "efg",
+        "email" : "efg@gmail.com",
+        "phone" : 797655678,
+        "gender" : "Male"
+
+    },
+    {
+        "id" : 4,
+        "empID": 5204,
+        "name" : "lmn",
+        "email" : "lmn@gmail.com",
+        "phone" : 123456789,
+        "gender" : "Female"
+
+    },
+    {
+        "id" : 5,
+        "empID": 5205,
+        "name" : "xyz",
+        "email" : "xyz@gmail.com",
+        "phone" : 678896789,
+        "gender" : "Female"
+
+    },
+    {
+        "id" : 6,
+        "empID": 5206,
+        "name" : "efg",
+        "email" : "efg@gmail.com",
+        "phone" : 797655678,
+        "gender" : "Male"
+
+    },
+    {
+        "id" : 7,
+        "empID": 5207,
+        "name" : "abc",
+        "email" : "abc@gmail.com",
+        "phone" : 123456789,
+        "gender" : "Male"
+
+    },
+    {
+        "id" : 8,
+        "empID": 5208,
+        "name" : "lmn",
+        "email" : "lmn@gmail.com",
+        "phone" : 123456789,
+        "gender" : "Female"
+
+    }
+
+]

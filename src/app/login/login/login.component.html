@@ -1,0 +1,46 @@
+<div class="container-fluid"><br><br><br>
+    <form [formGroup]="loginInForm">
+        <table><br>
+            <div class="title">
+                <h1>LOGIN FORM</h1>
+            </div>
+
+            <!----------------1row-------------->
+            <br>
+            <div class="details">
+                <input type="text" class="form-control" placeholder="Enter username" name="username"
+                    formControlName="username">
+                <span class="error" *ngIf="loginInForm.get('username')?.invalid && submitFlag==true">*Username is
+                    mandatory</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+
+            <!---------------2row------------ -->
+            <br>
+            <div class="details">
+                <input type="text" class="form-control" placeholder="Enter Email" name="email" formControlName="email">
+                <span class="error" *ngIf="loginInForm.get('email')?.invalid && submitFlag==true">*Email is
+                    mandatory</span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+
+            <!------------------3row ---------------->
+            <br>
+            <div class="details">
+                <input type="password" class="form-control" placeholder="Enter Password" formControlName="password">
+                <span class="error" *ngIf="loginInForm.get('password')?.invalid && submitFlag==true">*Password is
+                    mandatory</span>
+                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            </div>
+
+            <!-----------------4row-------------->
+            <br>
+            <div>
+                <button type="login" class="button" (click)="submit()">Login</button>
+            </div><br>
+            <a href="">Forgot Password?</a>
+            <a class="register" routerLink="/login/registrationLink">Registeration here</a>
+            <br>
+        </table>
+    </form>
+</div>

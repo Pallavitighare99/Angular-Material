@@ -1,0 +1,6 @@
+<div class="parent">
+    <h1>Parent component</h1>
+    <h3>{{message}}</h3>
+    <hr>
+    <app-child-customer #child (childEvent)="message = $event" [parentData]="name"></app-child-customer>
+</div>

@@ -1,0 +1,18 @@
+{
+  "Data": [
+    {
+      "_id": "",
+      "email": "",
+      "password": "",
+      "retype": "",
+      "firstname": "",
+      "lastname": "",
+      "phone": "",
+      "dob": "",
+      "address": "",
+      "city": "",
+      "district": "",
+      "id": 1
+    }
+  ]
+}
